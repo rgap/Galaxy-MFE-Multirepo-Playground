@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "common-components-react": "file:../common-components-react/common-components-react-1.0.0.tgz",
+    "common-components-react": "file:../Galaxy-MFE-Multirepo-CommonComponents/common-components-react-1.0.0.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

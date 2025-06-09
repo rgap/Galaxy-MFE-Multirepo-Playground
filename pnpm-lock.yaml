@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       common-components-react:
-        specifier: file:../common-components-react/common-components-react-1.0.0.tgz
-        version: file:../common-components-react/common-components-react-1.0.0.tgz(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: file:../Galaxy-MFE-Multirepo-CommonComponents/common-components-react-1.0.0.tgz
+        version: file:../Galaxy-MFE-Multirepo-CommonComponents/common-components-react-1.0.0.tgz(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -544,8 +544,8 @@ packages:
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
-  common-components-react@file:../common-components-react/common-components-react-1.0.0.tgz:
-    resolution: {integrity: sha512-+UZ++RJIsVSn43hwO7ijEQvMAyD+T7kwn4JNLeQRVucrvfDq9wAPI3l/CQfCY/3P1tGo76rn/JekIm67RGsCAg==, tarball: file:../common-components-react/common-components-react-1.0.0.tgz}
+  common-components-react@file:../Galaxy-MFE-Multirepo-CommonComponents/common-components-react-1.0.0.tgz:
+    resolution: {integrity: sha512-+UZ++RJIsVSn43hwO7ijEQvMAyD+T7kwn4JNLeQRVucrvfDq9wAPI3l/CQfCY/3P1tGo76rn/JekIm67RGsCAg==, tarball: file:../Galaxy-MFE-Multirepo-CommonComponents/common-components-react-1.0.0.tgz}
     version: 1.0.0
     peerDependencies:
       react: ^18.2.0
@@ -1377,7 +1377,7 @@ snapshots:
 
   color-name@1.1.4: {}
 
-  common-components-react@file:../common-components-react/common-components-react-1.0.0.tgz(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
+  common-components-react@file:../Galaxy-MFE-Multirepo-CommonComponents/common-components-react-1.0.0.tgz(react-dom@19.1.0(react@19.1.0))(react@19.1.0):
     dependencies:
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
