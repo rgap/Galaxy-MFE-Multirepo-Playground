@@ -1139,7 +1139,7 @@ packages:
     engines: {node: '>= 0.4'}
 
   mfe-common-components@file:../mfe-common-components/mfe-common-components-1.0.0.tgz:
-    resolution: {integrity: sha512-Tmdec3EFanxrdwVbn2Xts9jQ2zHO4xnSOtaHyKDDO5qIowUFE88y0rUaMCO+TrmHYPyRTtkYffHC/NBpn5PsRA==, tarball: file:../mfe-common-components/mfe-common-components-1.0.0.tgz}
+    resolution: {integrity: sha512-WGDhwDIkKzXcCGJ4kHLc0QWoFHcj+IHCz0sPQFTgECeF5iOJC/WPp/nE5HqdIg+uSG74H9vGvMhTHzh8zmeNmw==, tarball: file:../mfe-common-components/mfe-common-components-1.0.0.tgz}
     version: 1.0.0
 
   mfe-common-resources@file:../mfe-common-resources/mfe-common-resources-1.0.0.tgz:
