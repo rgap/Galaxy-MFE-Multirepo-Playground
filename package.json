@@ -1,5 +1,5 @@
 {
-  "name": "components-testing",
+  "name": "mfe-playground",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "common-components-react": "file:../Galaxy-MFE-Multirepo-CommonComponents/common-components-react-1.0.0.tgz",
+    "mfe-common-components": "file:../mfe-common-components/mfe-common-components-1.0.0.tgz",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

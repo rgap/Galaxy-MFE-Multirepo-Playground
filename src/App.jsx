@@ -1,11 +1,12 @@
-import { Button } from 'common-components-react';
-import React from 'react';
+import { Button } from "mfe-common-components";
+import "mfe-common-components/dist/index.css";
+import React from "react";
 
 function App() {
   return (
     <div className="testing-container">
       <h1>Common Components Testing</h1>
-      
+
       <section className="test-section">
         <h2>Button Variants</h2>
         <div className="button-grid">
@@ -13,22 +14,22 @@ function App() {
             <h3>Primary (Default)</h3>
             <Button>Primary Button</Button>
           </div>
-          
+
           <div className="button-test-case">
             <h3>Secondary</h3>
             <Button variant="secondary">Secondary Button</Button>
           </div>
-          
+
           <div className="button-test-case">
             <h3>Success</h3>
             <Button variant="success">Success Button</Button>
           </div>
-          
+
           <div className="button-test-case">
             <h3>Danger</h3>
             <Button variant="danger">Danger Button</Button>
           </div>
-          
+
           <div className="button-test-case">
             <h3>Outline</h3>
             <Button variant="outline">Outline Button</Button>
@@ -43,12 +44,12 @@ function App() {
             <h3>Small</h3>
             <Button size="small">Small Button</Button>
           </div>
-          
+
           <div className="button-test-case">
             <h3>Medium (Default)</h3>
             <Button>Medium Button</Button>
           </div>
-          
+
           <div className="button-test-case">
             <h3>Large</h3>
             <Button size="large">Large Button</Button>
@@ -70,10 +71,10 @@ function App() {
             <h3>Disabled</h3>
             <Button disabled>Disabled Button</Button>
           </div>
-          
+
           <div className="button-test-case">
             <h3>With onClick</h3>
-            <Button onClick={() => alert('Button clicked!')}>Click Me</Button>
+            <Button onClick={() => alert("Button clicked!")}>Click Me</Button>
           </div>
         </div>
       </section>
